@@ -18,6 +18,6 @@ function createPassword(){
     input.value=password
 }
 function copy(){
-    input.select()
+    input.select
     document.execCommand("copy")
 }
